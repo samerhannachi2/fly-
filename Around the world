@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Global Knowledge Exchange</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <h1>Global Knowledge Exchange</h1>
+    </header>
+    <main>
+      <section id="featured">
+        <h2>Featured Cultures</h2>
+        <div class="culture">
+          <img src="japan.jpg" alt="Japanese culture">
+          <h3>Japanese Culture</h3>
+          <p>Learn about the traditions, cuisine, and history of Japan.</p>
+          <a href="#">Read More</a>
+        </div>
+        <div class="culture">
+          <img src="mexico.jpg" alt="Mexican culture">
+          <h3>Mexican Culture</h3>
+          <p>Discover the vibrant music, art, and cuisine of Mexico.</p>
+          <a href="#">Read More</a>
+        </div>
+        <div class="culture">
+          <img src="india.jpg" alt="Indian culture">
+          <h3>Indian Culture</h3>
+          <p>Explore the diverse languages, religions, and festivals of India.</p>
+          <a href="#">Read More</a>
+        </div>
+      </section>
+      <section id="blog">
+        <h2>Latest Posts</h2>
+        <div class="post">
+          <h3>10 Things You Need to Know About Chinese Culture</h3>
+          <p>China is a vast and diverse country with a rich cultural heritage. Here are some interesting facts to get you started.</p>
+          <a href="#">Read More</a>
+        </div>
+        <div class="post">
+          <h3>How to Make Authentic Italian Pizza</h3>
+          <p>If you love pizza, you have to try making it the Italian way. Here's a step-by-step guide.</p>
+          <a href="#">Read More</a>
+        </div>
+        <div class="post">
+          <h3>The History of African Masks</h3>
+          <p>Masks have played an important role in African culture for centuries. Learn about their origins and meanings.</p>
+          <a href="#">Read More</a>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Get in Touch</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Global Knowledge Exchange
